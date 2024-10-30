@@ -1,0 +1,62 @@
+#callback {
+	font-family: arial, sans-serif
+	margin: 0;
+	padding: 0;
+	}
+#callback form {
+	margin: 10px 0 0 0;
+	padding: 0;
+	}
+#callback form p {
+	margin: 0 0 5px 0;
+	padding: 0;
+	}
+
+#callback label{
+	position:absolute;left-999em;top-999em;
+	}
+
+#callback input {
+	margin: 0 0 10px 0;
+	/* width: 200px; */
+	padding: 6px;
+	color: #465069;
+	font-size: 120%;
+	border:1px solid #415063;
+	}
+
+#callback input:focus {
+	background:#FFF;
+	}
+#callback #submit { 
+	color: #FFF;
+	background: #343838;
+	/* width: 214px; */
+	text-align: center;
+	cursor: pointer;
+	}
+
+#callback-message {
+	position:absolute;
+	z-index:1;
+	border: 3px solid #343838;
+	background: #F0F0F0;
+	width:500px;
+	margin:0 0 0 -250px;
+	padding: 20px 0;
+	top: 50%;
+	left:50%;
+	text-align:center;
+	font-size:140%;
+	color: #343838;
+	}
+
+#callback .options {
+	border: 1px solid #666;
+	padding: 0 0 0 20px;
+	margin: 0 50px 10px 0;
+	}
+
+#callback #submit input:focus {
+	color: #FFF;
+	}
